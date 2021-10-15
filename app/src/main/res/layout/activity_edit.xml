@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <EditText
+        android:id="@+id/et_edit_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title_edit_text"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:hint="@string/edit_task_hint" />
+
+    <Button
+        android:id="@+id/btn_edit_save"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_edit_task"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:text="@string/btn_edit_task" />
+
+    <TextView
+        android:id="@+id/tv_title_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3E0C98"
+        android:text="@string/tv_title_edit_text"
+        android:textColor="#F6F4F4"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+</RelativeLayout>

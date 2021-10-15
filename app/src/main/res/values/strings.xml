@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple-To-Do-App-TF</string>
+    <string name="tv_title">My To Do List:</string>
+    <string name="et_add_task_text">Add a task here!</string>
+    <string name="btn_edit_task">Save</string>
+    <string name="btn_add_task">Add Task</string>
+    <string name="tv_title_edit_text">Edit task:</string>
+    <string name="et_edit_text">Edit task here...</string>
+    <string name="edit_task_hint">Update the task...</string>
+</resources>
